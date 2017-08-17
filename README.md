@@ -17,4 +17,4 @@ It installs concrete5 8.x and runs on Ubuntu 16.04, nginx, PHP 7.1, and MySQL 5.
 + C5 username / password: admin
 
 ## Credits
-Huge credits to @damianlewis, who created the [base](https://github.com/damianlewis/vagrant-web-vm) for this box.
+Huge credits to [@damianlewis](https://github.com/damianlewis), who created the [base](https://github.com/damianlewis/vagrant-web-vm) for this box.
