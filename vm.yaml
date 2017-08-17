@@ -1,0 +1,10 @@
+---
+ip: "192.168.10.10"
+root: /vagrant/public
+nfs: true
+php-ver: "7.1"
+
+databases:
+    - c5
+
+site: c5.dev
