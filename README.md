@@ -13,7 +13,7 @@ It installs concrete5 8.x and runs on Ubuntu 16.04, nginx, PHP 7.1, and MySQL 5.
 
 
 ## Good to know
-+ MySQL username / password: root
++ MySQL username / password: c5
 + C5 username / password: admin
 
 ## Credits

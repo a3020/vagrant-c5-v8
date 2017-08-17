@@ -87,7 +87,7 @@ Vagrant.configure("2") do |config|
             config.vm.provision "shell" do |s|
                 s.name = "Creating MySQL Database: " + db
                 s.path = script_dir + "/create-mysql.sh"
-                s.args = [db, "root", "root"]
+                s.args = [db, "c5", "c5"]
             end
         end
     end

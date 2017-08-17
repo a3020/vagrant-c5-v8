@@ -20,7 +20,7 @@ cd public
 
 echo "## Install concrete5"
 chmod +x concrete/bin/concrete5
-concrete/bin/concrete5 c5:install --db-server=localhost --db-username=root --db-password=root --db-database=c5 \
+concrete/bin/concrete5 c5:install --db-server=localhost --db-username=c5 --db-password=c5 --db-database=c5 \
 	--admin-email=admin@example.com --admin-password=admin \
 	--starting-point=elemental_blank
 
