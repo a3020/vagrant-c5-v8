@@ -1,7 +1,7 @@
 ---
 ip: "192.168.10.10"
-hostname: concrete5_v8
-name: concrete5_v8
+hostname: concrete5v8
+name: concrete5v8
 nfs: true
 php-ver: "7.1"
 xdebug: false
