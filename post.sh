@@ -24,6 +24,8 @@ echo "## Install concrete5"
 chmod +x concrete/bin/concrete5
 concrete/bin/concrete5 c5:install --db-server=localhost --db-username=c5 --db-password=c5 --db-database=c5 \
 	--admin-email=admin@example.com --admin-password=admin \
+	--site=vagrant-c5-v8 \
+	--allow-as-root \
 	--starting-point=elemental_blank
 
 sed -i 's/upload_max_filesize\s*=.*/upload_max_filesize=20M/g' /etc/php/7.1/fpm/php.ini
